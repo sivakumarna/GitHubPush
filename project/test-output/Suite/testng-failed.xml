@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Testgc(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="qsp.paralleltestng">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- qsp.paralleltestng -->
+    </classes>
+  </test> <!-- Testgc(failed) -->
+  <test name="Testff(failed)">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="qsp.paralleltestng">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- qsp.paralleltestng -->
+    </classes>
+  </test> <!-- Testff(failed) -->
+</suite> <!-- Failed suite [Suite] -->
